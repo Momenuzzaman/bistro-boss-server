@@ -194,6 +194,8 @@ async function run() {
     });
 
     // create payment intent
+    // shakib
+
     app.post("/create-payment-intent", verifyJWT, async (req, res) => {
       const { price } = req.body;
       console.log(price);
